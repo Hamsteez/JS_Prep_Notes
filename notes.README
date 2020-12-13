@@ -1,0 +1,83 @@
+Javascript Codacademy Notes:
+
+Introduction:
+- Math.random(); //math is the global object method and random is the function associated with the math object method.
+- console.log(); //print
+- let x = 7; let x = 'hello'; let x = true;
+- .length; //returns length
+- += add, sub...
+- 'hello' + x + 'qwdqw'
+- const x = 7; cant change later
+- `hello ${x} hehe`
+- x === 'Monday' ? price -=1.5 : price += 1.5; //shorthand if statement
+- if () {
+    ...
+  } else {
+    ...
+  }
+- switch (x) {
+  case 'z':
+    ...;
+    break;
+  case 'x':
+    ...;
+    break;
+  default:
+    ...;
+  }
+- || or, && and, === strict equal, !== strict not equal
+- const myFunc = (w,z) => {
+  ....; return ...;
+  }; myFunc();
+- function myFunc(){
+  ....
+  };
+- const myFunc = function(){
+    ...;
+  }; // Anonymous function
+- .push; // add one or more elements to the end of an array. 
+- .pop; //removes the last element from an array and returns that element.
+- const randArray = [0,'hi',false,3,4];
+- while (condition){
+  ...
+  }
+- do {
+  ...
+  } while(condition); //code runs once then continues based on condition.
+- for (let i=0; i<4; i+=1){
+  ...
+  };
+- for (let i = 0; i < 99; i += 1) {
+    if (i > 5) {
+      break; //break stops the loop. Good for debugging code. 
+    }
+    console.log(i)
+  }
+- object.propertyName; or object[propertyName]; //accessing object properties
+- const apple = { 
+    color: 'Green',
+    price: {
+      bulk: '$3/kg',
+      smallQty: '$4/kg'
+    }
+  }
+- let mobile = {
+   brand: 'Samsung',
+   model: 'Galaxy Note 9'
+  };
+ 
+  for (let key in mobile) {
+    console.log(`${key}: ${mobile[key]}`);
+  }; //prints brand: Samsung then prints model: Galaxy Note 9 from looping.
+- delete mobile.brand;
+- const engine = {
+    // method shorthand, with one argument
+    start(adverb) {
+      console.log(`The engine starts up ${adverb}...`);
+   },  
+    // anonymous arrow function expression with no arguments
+    sputter: () => {
+      console.log('The engine sputters...');
+    },
+  }; //OBJECT METHODS
+- 
