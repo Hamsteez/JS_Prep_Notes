@@ -8,4 +8,3 @@ Git notes:
 - create repo on gitHub
 - git remote add origin git@github.com:Hamsteez/JS_Prep_Notes.git
 - git branch -M main
-- git push -u origin main
