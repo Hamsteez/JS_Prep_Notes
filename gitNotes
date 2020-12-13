@@ -1,0 +1,5 @@
+Git notes:
+
+-git status
+- git add 'file'
+- git commit -m 'message about code'
